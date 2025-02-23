@@ -6,31 +6,31 @@ const reviews = [
     name: "Sara Bekele",
     role: "Project Manager at EthioTech Solutions",
     body: "Bemnet exceeded our expectations in design and functionality.",
-    img: "https://avatar.vercel.sh/sarab",
+    img: "/heroimg.jpg",
   },
   {
     name: "Michael Rodriguez",
     role: "Lead Developer at Global Innovations",
     body: "Creative, technically skilled, and highly recommended.",
-    img: "https://avatar.vercel.sh/michaelr",
+    img: "/heroimg.jpg",
   },
   {
     name: "Lidya Gebremariam",
     role: "Founder of Addis Creative Studio",
     body: "Professional and detail-oriented, delivering a seamless platform.",
-    img: "https://avatar.vercel.sh/lidyag",
+    img: "/heroimg.jpg",
   },
   {
     name: "David Kim",
     role: "CTO at Nexa Labs",
     body: "Delivered early with outstanding quality.",
-    img: "https://avatar.vercel.sh/davidk",
+    img: "/heroimg.jpg",
   },
   {
     name: "Abebe Tesfaye",
     role: "CEO of Blue Nile Ventures",
     body: "Smooth process and excellent communication throughout.",
-    img: "https://avatar.vercel.sh/abebet",
+    img: "/heroimg.jpg",
   },
 ];
 

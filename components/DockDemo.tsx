@@ -14,7 +14,6 @@ import { DATA } from "@/Data/resume";
 import { cn } from "@/lib/utils";
 import { buttonVariants } from "./ui/button";
 import { Separator } from "./ui/separator";
-import { ModeToggle } from "@/components/mode-toggle";
 
 export type IconProps = React.HTMLAttributes<SVGElement>;
 
@@ -76,9 +75,7 @@ export function DockDemo() {
         <DockIcon>
           <TooltipProvider>
             <Tooltip>
-              <TooltipTrigger asChild>
-                <ModeToggle />
-              </TooltipTrigger>
+
               <TooltipContent>
                 <p>Theme</p>
               </TooltipContent>
