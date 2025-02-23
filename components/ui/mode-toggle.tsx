@@ -13,7 +13,7 @@ import {
 } from "./dropdown-menu";
 import { ChevronsUpDownIcon } from "lucide-react";
 
-export function ModeToggler() {
+export function ModeToggle() {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
 

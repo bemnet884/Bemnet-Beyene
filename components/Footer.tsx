@@ -1,4 +1,4 @@
-import { ModeToggler } from "@/components/ui/mode-toggle";
+import { ModeToggle } from "@/components/ui/mode-toggle";
 import {
   Footer,
   FooterColumn,
