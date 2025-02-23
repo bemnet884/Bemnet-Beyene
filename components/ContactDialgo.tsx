@@ -30,7 +30,7 @@ export function ContactDialog() {
         </AlertDialogTrigger>
         <AlertDialogContent>
           <AlertDialogHeader>
-            <AlertDialogTitle className="text-3xl font-bold">Let's Make it Possible.</AlertDialogTitle>
+            <AlertDialogTitle className="text-3xl font-bold">Let&lsquo;s Make it Possible.</AlertDialogTitle>
             <AlertDialogDescription>
               <div className="w-full max-w-2xl space-y-8">
                 <div className="space-y-2">

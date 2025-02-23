@@ -45,7 +45,7 @@ export default function Hero() {
 
           </h1>
           <p className="text-md text-black relative z-10 max-w-[550px] animate-appear font-medium text-muted-foreground opacity-0 delay-100 sm:text-xl">
-            I'm a Next.js developer specialized in full-stack web development, 3D integrations, and responsive designs.
+            I&lsquo;m a Next.js developer specialized in full-stack web development, 3D integrations, and responsive designs.
           </p>
 
           <div className="relative z-10 flex animate-appear justify-center gap-4 opacity-0 delay-300">
