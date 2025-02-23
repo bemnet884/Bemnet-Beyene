@@ -54,7 +54,7 @@ export default function Hero() {
               <Button variant="default" size="lg" asChild>
                 <a href="/">Get Started</a>
               </Button>
-              <Button variant="glow" size="lg" asChild>
+              <Button variant="outline" size="lg" asChild>
                 <a href="/">
                   <Github className="mr-2 h-4 w-4" /> Github
                 </a>

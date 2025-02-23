@@ -1,18 +1,12 @@
 'use client'
 import { Button, buttonVariants } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { ArrowRightIcon, ArrowUpRight, ArrowUpRightIcon } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import { Mockup, MockupFrame } from "@/components/ui/mockup";
 import Glow from "@/components/ui/glow";
 import Image from "next/image";
 import { useTheme } from "next-themes";
 import Github from "@/components/logos/github";
-import { AnimatedGradientTextDemo } from "./AnimatedGradientTextDemo";
-import { TextAnimate } from "@/components/magicui/text-animate";
-import { TypingAnimation } from "./magicui/typing-animation";
-import { TypingAnimationDemo } from "./TypingAni";
-import { LineShadowText } from "@/components/magicui/line-shadow-text";
-import { ContactDialog } from "./ContactDialgo";
+
 import Link from 'next/link'
 import { cn } from "@/lib/utils";
 
