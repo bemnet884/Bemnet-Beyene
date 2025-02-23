@@ -9,7 +9,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { ArrowUpRight } from "lucide-react";
-import FramerWrapper from "@/components/animation/framerWrapper";
+import FramerWrapper from "@/components/animation/FramerWrapper";
 
 interface ProjectCardProps {
   value: {

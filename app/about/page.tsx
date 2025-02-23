@@ -1,10 +1,10 @@
 import Aboutfooter from "@/components/AboutFooter";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
-import FramerWrapper from "@/components/animation/framerWrapper";
 import { Badge } from "@/components/ui/badge";
-import { Circle, Heart, User2, FileDown, FileText, ArrowUpRightIcon } from "lucide-react";
+import { Circle, Heart, User2, ArrowUpRightIcon } from "lucide-react";
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
+import FramerWrapper from "@/components/animation/FramerWrapper";
 const About = () => {
   const items = [
     { hobby: "Playing Tennis" },

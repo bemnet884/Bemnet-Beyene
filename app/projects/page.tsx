@@ -1,7 +1,7 @@
 
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import ProjectCards from "@/components/ProjectCard";
-import FramerWrapper from "@/components/animation/framerWrapper";
+import FramerWrapper from "@/components/animation/FramerWrapper";
 import { Badge } from "@/components/ui/badge";
 import { Layers } from "lucide-react";
 
