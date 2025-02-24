@@ -41,9 +41,12 @@ const About = () => {
           </FramerWrapper>
 
           <div className="flex gap-2">
-            <Button asChild variant={'outline'}>
-              View Resume <ArrowUpRightIcon className="ml-2 size-5" />
+            <Button asChild variant="outline">
+              <Link href="/resume.pdf" target="_blank">
+                View Resume <ArrowUpRightIcon className="ml-2 size-5" />
+              </Link>
             </Button>
+
             <Button asChild>
               <Link href="/about">Learn More</Link>
             </Button>

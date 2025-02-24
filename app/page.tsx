@@ -22,11 +22,11 @@ export default function Home() {
       <DockDemo />
 
 
-      {/**
       <About />
-       * 
+      {/**
+       *
       <FAQ />
-       *  
+       *
       <Contact />
        */}
 
