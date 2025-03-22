@@ -43,7 +43,7 @@ const About = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-700 text-lg">
-                    I'm a Next.js full-stack developer passionate about
+                    I&apos;m a Next.js full-stack developer passionate about
                     business automation and digital transformation.
                     Based in Ethiopia, I specialize in creating scalable, interactive, and high-performance applications.
                   </p>
@@ -74,7 +74,7 @@ const About = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-700 text-lg">
-                    I'm currently testing an inventory management SaaS to help businesses automate stock control and workflow.
+                    I&apos;m currently testing an inventory management SaaS to help businesses automate stock control and workflow.
                     Beyond that, I love collaborating on innovative projects that push technology forward 🚀.
                   </p>
                 </CardContent>
