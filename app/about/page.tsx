@@ -19,8 +19,6 @@ const About = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
-      {/* Navbar */}
-      <Navbar />
 
       {/* Main Content */}
       <div className="flex-grow py-12">
@@ -41,7 +39,7 @@ const About = () => {
             <FramerWrapper y={30} delay={0.1}>
               <Card className="shadow-lg border rounded-xl bg-white">
                 <CardHeader>
-                  <CardTitle className="text-2xl font-bold">Who I Am</CardTitle>
+                  <CardTitle className="text-2xl text-orange-400 font-bold">Who I Am</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-700 text-lg">
@@ -57,7 +55,7 @@ const About = () => {
             <FramerWrapper y={30} delay={0.2}>
               <Card className="shadow-lg border rounded-xl bg-white">
                 <CardHeader>
-                  <CardTitle className="text-2xl font-bold">What I Do</CardTitle>
+                  <CardTitle className="text-2xl text-orange-400 font-bold">What I Do</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-700 text-lg">
@@ -72,7 +70,7 @@ const About = () => {
             <FramerWrapper y={30} delay={0.3}>
               <Card className="shadow-lg border rounded-xl bg-white">
                 <CardHeader>
-                  <CardTitle className="text-2xl font-bold">My Passion & Goals</CardTitle>
+                  <CardTitle className="text-2xl text-orange-400 font-bold">My Passion & Goals</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-700 text-lg">
@@ -86,7 +84,7 @@ const About = () => {
 
           {/* Resume Button */}
           <div className="flex justify-center mt-8">
-            <Button asChild variant="outline" className="px-6 py-3 text-lg">
+            <Button asChild variant="default" className="px-6 py-3 text-lg">
               <Link href="/Bemnet Beyene.pdf" target="_blank">
                 View Resume <ArrowUpRightIcon className="ml-2 size-5" />
               </Link>
@@ -101,7 +99,7 @@ const About = () => {
             <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {items.map((val, indx) => (
                 <div key={indx} className="flex gap-2 items-center text-lg text-gray-700 p-4 bg-gray-100 rounded-lg shadow-md">
-                  <Circle className="h-4 w-4 text-primary" /> {val.hobby}
+                  {val.hobby}
                 </div>
               ))}
             </div>
@@ -109,8 +107,7 @@ const About = () => {
         </MaxWidthWrapper>
       </div>
 
-      {/* Footer */}
-      <Footer />
+
     </div>
   );
 };

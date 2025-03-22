@@ -1,8 +1,10 @@
 
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
+import Navbar from "@/components/Navbar";
 import ProjectCards from "@/components/ProjectCard";
 import FramerWrapper from "@/components/animation/FramerWrapper";
 import { Badge } from "@/components/ui/badge";
+import Footer from "@/components/Footer";
 import { Layers } from "lucide-react";
 
 const projectsPage = () => {
@@ -58,13 +60,6 @@ const projectsPage = () => {
           <h1 className="font-poppins font-bold text-4xl name_underline max-sm:text-2xl">Projects</h1>
 
         </Badge>
-        <div className="flex flex-col gap-3">
-          <FramerWrapper y={0} x={200}>
-            <p className=" font-poppins text-lg w-full max-sm:text-base">
-              Explore a collection of my full-stack projects, where I combine automation, 3D interactions, and responsive design to build seamless digital experiences. Each project reflects my passion for problem-solving, innovation, and business efficiency.
-            </p>
-          </FramerWrapper>
-        </div>
 
         <div className=" w-full flex flex-row flex-wrap gap-3 max-lg:flex-col">
           {Projects.map((val, indx) => {

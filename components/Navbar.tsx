@@ -33,9 +33,6 @@ export default function Navbar() {
             <a href="/about" className="hidden text-sm md:block">
               About
             </a>
-            <a href="/skills" className="hidden text-sm md:block">
-              Skills
-            </a>
             <a href="/projects" className="hidden text-sm md:block">
               Projects
             </a>
