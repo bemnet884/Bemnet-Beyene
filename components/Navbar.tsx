@@ -58,19 +58,14 @@ export default function Navbar() {
                     <span> Bemnet B.</span>
                   </a>
                   <a
-                    href="/"
+                    href="/about"
                     className="text-muted-foreground hover:text-foreground"
                   >
                     About
                   </a>
+
                   <a
-                    href="/"
-                    className="text-muted-foreground hover:text-foreground"
-                  >
-                    Skills
-                  </a>
-                  <a
-                    href="/"
+                    href="/projects"
                     className="text-muted-foreground hover:text-foreground"
                   >
                     Projects
