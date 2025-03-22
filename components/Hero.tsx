@@ -45,7 +45,7 @@ export default function Hero() {
             <div className="relative z-10 flex animate-appear justify-center gap-4 opacity-0 delay-300">
               <Button variant="default" size="lg" asChild>
                 <Link
-                  href="BemnetBeyeneResume.pdf"
+                  href="Bemnet Beyene.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={cn(
