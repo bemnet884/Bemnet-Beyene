@@ -14,7 +14,6 @@ import About from "./about/page";
 export default function Home() {
   return (
     <>
-      <Navbar />
       <AnimatedGradientTextDemo />
       <Hero />
       <Projects />
@@ -31,7 +30,6 @@ export default function Home() {
       <Contact />
        */}
 
-      <Footer />
     </>
   );
 }
