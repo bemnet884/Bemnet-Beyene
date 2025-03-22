@@ -37,7 +37,9 @@ export default function Navbar() {
               Projects
             </a>
             <Separator orientation="vertical" className="h-full text-black" />
-            <ContactDialog />
+            <div className="hidden md:block">
+              <ContactDialog />
+            </div>
             <Sheet>
               <SheetTrigger asChild>
                 <Button
