@@ -5,6 +5,7 @@ import {
   FooterContent,
 } from "@/components/ui/footer";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function FooterSection() {
   return (
@@ -19,28 +20,11 @@ export default function FooterSection() {
               </div>
             </FooterColumn>
             <FooterColumn>
-              <h3 className="text-md pt-1 font-semibold">Projects</h3>
-              <a href="#projects" className="text-sm text-muted-foreground">
-                My Work
-              </a>
-              <a href="#experience" className="text-sm text-muted-foreground">
-                Experience
-              </a>
-              <a href="#skills" className="text-sm text-muted-foreground">
-                Skills
-              </a>
+              <Link href='/projects' className="text-md pt-1 font-semibold">Projects</Link>
+
             </FooterColumn>
             <FooterColumn>
-              <h3 className="text-md pt-1 font-semibold">About Me</h3>
-              <a href="#about" className="text-sm text-muted-foreground">
-                Biography
-              </a>
-              <a href="#testimonials" className="text-sm text-muted-foreground">
-                Testimonials
-              </a>
-              <a href="#blog" className="text-sm text-muted-foreground">
-                Blog
-              </a>
+              <Link href='/about' className="text-md pt-1 font-semibold">About Me</Link>
             </FooterColumn>
             <FooterColumn>
               <h3 className="text-md pt-1 font-semibold">Contact</h3>
