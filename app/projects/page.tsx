@@ -21,7 +21,7 @@ const projectsPage = () => {
       description:
         "A curated collection of digital bundles designed for diverse user needs, offering tools and resources for productivity, entertainment, and personal growth.",
       tags: ["Next.js", "Tailwind CSS", "E-commerce"],
-      link: "https://your-fandishas-bundles-link.com",
+      link: "https://github.com/bemnet884/Fandishas_Bundles",
     },
 
     {
@@ -29,7 +29,7 @@ const projectsPage = () => {
       description:
         "A dynamic 3D portfolio built to showcase creative projects using interactive animations and immersive visuals, highlighting skills and expertise in 3D design.",
       tags: ["Three.js", "React", "GLTF", "Next.js"],
-      link: "https://your-3d-portfolio-link.com",
+      link: "https://bemnet884.github.io/3D-Portfolio/",
     },
 
     {
@@ -37,7 +37,7 @@ const projectsPage = () => {
       description:
         "A powerful WordPress plugin that integrates external 3D models from platforms like Spline and Sketchfab, enabling seamless embedding of 3D assets.",
       tags: ["WordPress", "JavaScript", "3D Models", "GLTF/GLB"],
-      link: "https://github.com/bemnet884/3D-Plugin-Nehabi?tab=readme-ov-file",
+      link: "https://github.com/bemnet884/3D-Plugin-Nehabi",
     },
 
     {
@@ -45,7 +45,7 @@ const projectsPage = () => {
       description:
         "A versatile, feature-rich text editor with markdown support, syntax highlighting, and auto-save functionality, designed for developers and writers.",
       tags: ["React", "Draft.js", "TypeScript", "Markdown"],
-      link: "https://your-text-editor-link.com",
+      link: "https://github.com/bemnet884/Text-Editor",
     },
   ];
 
