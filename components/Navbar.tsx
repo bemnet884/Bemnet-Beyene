@@ -8,7 +8,8 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Code, CodeSquare, Dot, Menu } from "lucide-react";
 import { Separator } from "./ui/separator";
 import { ContactDialog } from "./ContactDialgo";
-
+import Link from 'next/link'
+import Image from "next/image";
 export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 -mb-4 px-4 pb-4">
@@ -16,14 +17,14 @@ export default function Navbar() {
       <div className="relative mx-auto max-w-container">
         <NavbarComponent>
           <NavbarLeft>
-            <a
+            <Link
               href="/"
               className="flex items-center gap-2 text-xl font-bold"
             >
-              <Code size={28} className="text-orange-400" />
+              <Image width={50} height={50} alt="logo" src='/logoblack.png' />
 
               Bemnet B.
-            </a>
+            </Link>
             {/*
             <Navigation />
             */}

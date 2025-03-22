@@ -2,6 +2,7 @@ import { ChevronRight } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 import { AnimatedGradientText } from "@/components/magicui/animated-gradient-text";
+import Link from "next/link"
 
 export async function AnimatedGradientTextDemo() {
   return (
@@ -14,11 +15,11 @@ export async function AnimatedGradientTextDemo() {
           )}
         >
 
-          Welcome to my Developer Portfolio -
-          Explore Projects
+
+          Welcome to my Developer Portfolio
 
         </span>
-        <ChevronRight className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
+
       </AnimatedGradientText>
     </div>
   );

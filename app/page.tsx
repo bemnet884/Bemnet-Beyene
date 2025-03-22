@@ -18,12 +18,13 @@ export default function Home() {
       <AnimatedGradientTextDemo />
       <Hero />
       <Projects />
-      <MarqueeDemo />
-      <DockDemo />
 
 
-      <About />
       {/**
+       *
+      <DockDemo />
+       *
+      <About />
        *
       <FAQ />
        *

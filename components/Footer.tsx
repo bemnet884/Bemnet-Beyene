@@ -1,12 +1,10 @@
-import { ModeToggle } from "@/components/ui/mode-toggle";
 import {
   Footer,
   FooterColumn,
   FooterBottom,
   FooterContent,
 } from "@/components/ui/footer";
-import Logo from "@/components/ui/logo";
-import { Code } from "lucide-react";
+import Image from "next/image";
 
 export default function FooterSection() {
   return (
@@ -16,7 +14,7 @@ export default function FooterSection() {
           <FooterContent>
             <FooterColumn className="col-span-2 sm:col-span-3 md:col-span-1">
               <div className="flex items-center gap-2">
-                <Code className="text-orange-400" />
+                <Image width={50} height={50} alt="logo" src='/logoblack.png' />
                 <h3 className="text-xl font-bold">Bemnet B.</h3>
               </div>
             </FooterColumn>

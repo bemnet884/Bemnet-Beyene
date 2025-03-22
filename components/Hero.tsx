@@ -34,19 +34,18 @@ export default function Hero() {
 
           <h1 className="relative z-10 inline-block animate-appear bg-gradient-to-r from-foreground to-foreground bg-clip-text text-4xl font-semibold leading-tight text-transparent drop-shadow-2xl sm:text-6xl sm:leading-tight md:text-8xl md:leading-tight dark:to-muted-foreground">
 
-            Crafting Modern
-            Web Experiences with Code & Creativity
+            Automating Businesses & Crafting Seamless Digital Experiences
 
           </h1>
           <p className="text-md text-black relative z-10 max-w-[550px] animate-appear font-medium text-muted-foreground opacity-0 delay-100 sm:text-xl">
-            I&lsquo;m a Next.js developer specialized in full-stack web development, 3D integrations, and responsive designs.
+            Crafting dynamic, interactive web experiences with Next.js, 3D design, and modern UI.
           </p>
 
           <div className="relative z-10 flex animate-appear justify-center gap-4 opacity-0 delay-300">
             <div className="relative z-10 flex animate-appear justify-center gap-4 opacity-0 delay-300">
               <Button variant="default" size="lg" asChild>
                 <Link
-                  href="resume.pdf"
+                  href="BemnetBeyeneResume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={cn(
@@ -57,7 +56,7 @@ export default function Hero() {
                     "w-fit transition-all hover:translate-y-[-2px] hover:shadow-md group"
                   )}
                 >
-                  Visit Project
+                  Resume
                   <ArrowUpRight className="h-4 w-4 ml-1 hidden group-hover:block -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-200" />
                 </Link>
               </Button>
