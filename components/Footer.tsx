@@ -21,7 +21,6 @@ export default function FooterSection() {
             </FooterColumn>
             <FooterColumn>
               <Link href='/projects' className="text-md pt-1 font-semibold">Projects</Link>
-
             </FooterColumn>
             <FooterColumn>
               <Link href='/about' className="text-md pt-1 font-semibold">About Me</Link>
