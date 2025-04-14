@@ -11,6 +11,14 @@ const projectsPage = () => {
   // PROJECTS DATA
   const Projects = [
     {
+      title: "Top Movie Search",
+      description:
+        "A sleek and responsive movie search app that leverages the TMDB API to fetch trending and top-rated movies. It features real-time search with debounced input using useBounce, and stores user preferences using Appwrite for a smooth backend experience.",
+      tags: ["Next.js", "TMDB API", "Appwrite", "useBounce"],
+      link: "https://movie-react-smoky.vercel.app/",
+    },
+
+    {
       title: "Smart Light System",
       description:
         "A cost-effective smart lighting system that allows users to control LED lights remotely via a mobile app or web interface. Features include on/off control, brightness adjustment, and customizable color options.",
