@@ -7,12 +7,8 @@ import Navbar from "@/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Bemnet | Creative Professional Portfolio & Resume
-
-",
-  description: "Explore Bemnet’s resume and portfolio showcasing skills, experience, and creative projects in a sleek, easy-to-navigate format."
-
-",
+  title: "Bemnet | Creative Professional Portfolio & Resume",
+  description: "Explore Bemnet’s resume and portfolio showcasing skills, experience, and creative projects in a sleek, easy-to-navigate format.",
 };
 
 export default function RootLayout({
